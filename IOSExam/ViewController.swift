@@ -25,6 +25,10 @@ class ViewController: UIViewController {
     }
     
     @IBAction func registerButtonAction(_ sender: Any) {
+        let storyboard = UIStoryboard(name: "Register", bundle: nil)
+        let view = storyboard.instantiateViewController(withIdentifier: "Register") as! RegisterViewController
+        view.modalPresentationStyle = .fullScreen
+        self.present(view, animated: false)
     }
 }
 
