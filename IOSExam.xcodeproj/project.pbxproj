@@ -14,6 +14,8 @@
 		FF0FC4CF2A9B66FF001B2F03 /* IOSExam.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = FF0FC4CD2A9B66FF001B2F03 /* IOSExam.xcdatamodeld */; };
 		FF0FC4D12A9B6701001B2F03 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FF0FC4D02A9B6701001B2F03 /* Assets.xcassets */; };
 		FF0FC4D42A9B6701001B2F03 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FF0FC4D22A9B6701001B2F03 /* LaunchScreen.storyboard */; };
+		FF1988972A9BA95200D45DE4 /* Login.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FF1988962A9BA95200D45DE4 /* Login.storyboard */; };
+		FF1988992A9BA97D00D45DE4 /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FF1988982A9BA97D00D45DE4 /* LoginViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,6 +28,8 @@
 		FF0FC4D02A9B6701001B2F03 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		FF0FC4D32A9B6701001B2F03 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		FF0FC4D52A9B6701001B2F03 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FF1988962A9BA95200D45DE4 /* Login.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Login.storyboard; sourceTree = "<group>"; };
+		FF1988982A9BA97D00D45DE4 /* LoginViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -61,6 +65,8 @@
 				FF0FC4C42A9B66FF001B2F03 /* AppDelegate.swift */,
 				FF0FC4C62A9B66FF001B2F03 /* SceneDelegate.swift */,
 				FF0FC4C82A9B66FF001B2F03 /* ViewController.swift */,
+				FF1988982A9BA97D00D45DE4 /* LoginViewController.swift */,
+				FF1988962A9BA95200D45DE4 /* Login.storyboard */,
 				FF0FC4CA2A9B66FF001B2F03 /* Main.storyboard */,
 				FF0FC4D02A9B6701001B2F03 /* Assets.xcassets */,
 				FF0FC4D22A9B6701001B2F03 /* LaunchScreen.storyboard */,
@@ -128,6 +134,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				FF1988972A9BA95200D45DE4 /* Login.storyboard in Resources */,
 				FF0FC4D42A9B6701001B2F03 /* LaunchScreen.storyboard in Resources */,
 				FF0FC4D12A9B6701001B2F03 /* Assets.xcassets in Resources */,
 				FF0FC4CC2A9B66FF001B2F03 /* Main.storyboard in Resources */,
@@ -144,6 +151,7 @@
 				FF0FC4C92A9B66FF001B2F03 /* ViewController.swift in Sources */,
 				FF0FC4C52A9B66FF001B2F03 /* AppDelegate.swift in Sources */,
 				FF0FC4CF2A9B66FF001B2F03 /* IOSExam.xcdatamodeld in Sources */,
+				FF1988992A9BA97D00D45DE4 /* LoginViewController.swift in Sources */,
 				FF0FC4C72A9B66FF001B2F03 /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
