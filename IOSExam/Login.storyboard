@@ -45,7 +45,7 @@
                                                                     <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" translatesAutoresizingMaskIntoConstraints="NO" id="vFI-FK-91T">
                                                                         <rect key="frame" x="0.0" y="0.0" width="369" height="44"/>
                                                                         <subviews>
-                                                                            <textField opaque="NO" contentMode="scaleToFill" horizontalHuggingPriority="248" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="line" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="cyR-Fc-b5u">
+                                                                            <textField opaque="NO" contentMode="scaleToFill" horizontalHuggingPriority="248" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="line" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="cyR-Fc-b5u" customClass="CustomTextField" customModule="IOSExam" customModuleProvider="target">
                                                                                 <rect key="frame" x="0.0" y="0.0" width="369" height="44"/>
                                                                                 <fontDescription key="fontDescription" name=".AppleSystemUIFont" family=".AppleSystemUIFont" pointSize="14"/>
                                                                                 <textInputTraits key="textInputTraits"/>
@@ -58,7 +58,7 @@
                                                                     <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" translatesAutoresizingMaskIntoConstraints="NO" id="753-5j-chA">
                                                                         <rect key="frame" x="0.0" y="56" width="369" height="44"/>
                                                                         <subviews>
-                                                                            <textField opaque="NO" contentMode="scaleToFill" horizontalHuggingPriority="248" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="vgw-4W-K0c">
+                                                                            <textField opaque="NO" contentMode="scaleToFill" horizontalHuggingPriority="248" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="vgw-4W-K0c" customClass="CustomTextField" customModule="IOSExam" customModuleProvider="target">
                                                                                 <rect key="frame" x="0.0" y="0.0" width="369" height="44"/>
                                                                                 <fontDescription key="fontDescription" type="system" pointSize="14"/>
                                                                                 <textInputTraits key="textInputTraits"/>
@@ -128,6 +128,14 @@
             <point key="canvasLocation" x="1909.1603053435115" y="-2.1126760563380285"/>
         </scene>
     </scenes>
+    <designables>
+        <designable name="cyR-Fc-b5u">
+            <size key="intrinsicContentSize" width="12" height="26.666666666666668"/>
+        </designable>
+        <designable name="vgw-4W-K0c">
+            <size key="intrinsicContentSize" width="32" height="34"/>
+        </designable>
+    </designables>
     <resources>
         <systemColor name="systemBackgroundColor">
             <color white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
