@@ -3,4 +3,54 @@
    uuid = "ABA33AC2-1E37-4BFB-8489-5C9ED3861155"
    type = "1"
    version = "2.0">
+   <Breakpoints>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "CE266591-D97A-4F2F-B2CA-C2307CEB3610"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "IOSExam/DashboardTableViewController.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "37"
+            endingLineNumber = "37"
+            landmarkName = "configureDataSource()"
+            landmarkType = "7">
+            <Locations>
+               <Location
+                  uuid = "CE266591-D97A-4F2F-B2CA-C2307CEB3610 - d1946a51cd494cbb"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "closure #1 (__C.UITableView, Foundation.IndexPath, IOSExam.DataModel) -&gt; Swift.Optional&lt;__C.UITableViewCell&gt; in IOSExam.DashboardTableViewController.configureDataSource() -&gt; ()"
+                  moduleName = "IOSExam"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/criseldaaguilar/IOSExam/IOSExam/DashboardTableViewController.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "41"
+                  endingLineNumber = "41"
+                  offsetFromSymbolStart = "424">
+               </Location>
+               <Location
+                  uuid = "CE266591-D97A-4F2F-B2CA-C2307CEB3610 - d1946a51cd494cf9"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "closure #1 (__C.UITableView, Foundation.IndexPath, IOSExam.DataModel) -&gt; Swift.Optional&lt;__C.UITableViewCell&gt; in IOSExam.DashboardTableViewController.configureDataSource() -&gt; ()"
+                  moduleName = "IOSExam"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/criseldaaguilar/IOSExam/IOSExam/DashboardTableViewController.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "43"
+                  endingLineNumber = "43"
+                  offsetFromSymbolStart = "424">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+   </Breakpoints>
 </Bucket>
