@@ -24,12 +24,33 @@ class DetailsViewController: UIViewController {
         view.modalPresentationStyle = .fullScreen
         self.present(view, animated: false)
     }
+    
     override func viewDidLoad() {
-        
+        super.viewDidLoad()
         rewardsLabel.text = rewards
         descriptionLabel.text = desc
-        
-        super.viewDidLoad()
+        setImage()
+    }
+    
+    func setImage() {
+        let imageUrlString = image
+        if let imageUrl = URL(string: imageUrlString) {
+            let task = URLSession.shared.dataTask(with: imageUrl) { (data, response, error) in
+                if let error = error {
+                    print("Error: \(error.localizedDescription)")
+                    return
+                }
+                
+                if let data = data, let image = UIImage(data: data) {
+                    DispatchQueue.main.async {
+                        self.rewardsImage.image = image
+                    }
+                }
+            }
+            task.resume()
+        } else {
+            print("Invalid image URL")
+        }
     }
 
 }

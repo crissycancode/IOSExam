@@ -69,9 +69,14 @@ class DashboardTableViewController: UITableViewController {
         let storyboard = UIStoryboard(name: "Details", bundle: nil)
         let view = storyboard.instantiateViewController(withIdentifier: "Details") as! DetailsViewController
         view.modalPresentationStyle = .fullScreen
-        view.desc = "my description"
-        view.image = "my image"
-        view.rewards = "my rewards"
+        
+        let selectedRow = indexPath.row
+        let selectedData = dataSource.itemIdentifier(for: indexPath)
+ 
+            // Set the properties with the selected data
+        view.desc = selectedData?.description ?? ""
+        view.image = selectedData?.image ?? ""
+        view.rewards = selectedData?.name ?? ""
         self.present(view, animated: false)
     }
 }
