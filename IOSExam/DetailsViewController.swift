@@ -8,7 +8,14 @@
 import UIKit
 
 class DetailsViewController: UIViewController {
-
+    
+    var desc: String = ""
+    var rewards: String = ""
+    var image: String = ""
+    
+    @IBOutlet weak var rewardsImage: UIImageView!
+    @IBOutlet weak var rewardsLabel: UILabel!
+    @IBOutlet weak var descriptionLabel: UILabel!
     @IBOutlet weak var backBarButton: UIBarButtonItem!
     
     @IBAction func backBarButtonAction(_ sender: Any) {
@@ -18,6 +25,10 @@ class DetailsViewController: UIViewController {
         self.present(view, animated: false)
     }
     override func viewDidLoad() {
+        
+        rewardsLabel.text = rewards
+        descriptionLabel.text = desc
+        
         super.viewDidLoad()
     }
 

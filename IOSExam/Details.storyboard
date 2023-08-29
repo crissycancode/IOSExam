@@ -91,6 +91,9 @@
                     <simulatedToolbarMetrics key="simulatedBottomBarMetrics"/>
                     <connections>
                         <outlet property="backBarButton" destination="UOK-rQ-SHE" id="GRa-TR-jmw"/>
+                        <outlet property="descriptionLabel" destination="3wW-G7-vUg" id="eDW-fq-vKG"/>
+                        <outlet property="rewardsImage" destination="zfv-7v-BPx" id="zgc-8f-PXZ"/>
+                        <outlet property="rewardsLabel" destination="xSr-jf-dhn" id="Efj-Sk-Ibe"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="Ief-a0-LHa" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>

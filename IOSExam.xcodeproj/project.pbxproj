@@ -22,6 +22,8 @@
 		FFA0A42F2A9DB524009B4E1A /* DataModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = FFA0A42E2A9DB524009B4E1A /* DataModel.swift */; };
 		FFBBE0522A9E23F900BE650B /* Details.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FFBBE0512A9E23F900BE650B /* Details.storyboard */; };
 		FFBBE0542A9E24FB00BE650B /* DetailsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FFBBE0532A9E24FB00BE650B /* DetailsViewController.swift */; };
+		FFBBE0562A9E434000BE650B /* UserProfile.JSON in Resources */ = {isa = PBXBuildFile; fileRef = FFBBE0552A9E434000BE650B /* UserProfile.JSON */; };
+		FFBBE0582A9E44A400BE650B /* Rewards.JSON in Resources */ = {isa = PBXBuildFile; fileRef = FFBBE0572A9E44A400BE650B /* Rewards.JSON */; };
 		FFE50E072A9C8D8700AC5FF6 /* Dashboard.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FFE50E062A9C8D8600AC5FF6 /* Dashboard.storyboard */; };
 		FFE50E092A9C8D9A00AC5FF6 /* DashboardViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FFE50E082A9C8D9A00AC5FF6 /* DashboardViewController.swift */; };
 		FFE50E0B2A9CA14500AC5FF6 /* DashboardTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FFE50E0A2A9CA14500AC5FF6 /* DashboardTableViewController.swift */; };
@@ -47,6 +49,8 @@
 		FFA0A42E2A9DB524009B4E1A /* DataModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DataModel.swift; sourceTree = "<group>"; };
 		FFBBE0512A9E23F900BE650B /* Details.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Details.storyboard; sourceTree = "<group>"; };
 		FFBBE0532A9E24FB00BE650B /* DetailsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailsViewController.swift; sourceTree = "<group>"; };
+		FFBBE0552A9E434000BE650B /* UserProfile.JSON */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = UserProfile.JSON; sourceTree = "<group>"; };
+		FFBBE0572A9E44A400BE650B /* Rewards.JSON */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = Rewards.JSON; sourceTree = "<group>"; };
 		FFE50E062A9C8D8600AC5FF6 /* Dashboard.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Dashboard.storyboard; sourceTree = "<group>"; };
 		FFE50E082A9C8D9A00AC5FF6 /* DashboardViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DashboardViewController.swift; sourceTree = "<group>"; };
 		FFE50E0A2A9CA14500AC5FF6 /* DashboardTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DashboardTableViewController.swift; sourceTree = "<group>"; };
@@ -93,8 +97,10 @@
 				FF19889E2A9BC77800D45DE4 /* RegisterViewController.swift */,
 				FF1988A02A9C6F0E00D45DE4 /* CustomTextField.swift */,
 				FFE50E082A9C8D9A00AC5FF6 /* DashboardViewController.swift */,
-				FFBBE0512A9E23F900BE650B /* Details.storyboard */,
 				FFBBE0532A9E24FB00BE650B /* DetailsViewController.swift */,
+				FFBBE0512A9E23F900BE650B /* Details.storyboard */,
+				FFBBE0552A9E434000BE650B /* UserProfile.JSON */,
+				FFBBE0572A9E44A400BE650B /* Rewards.JSON */,
 				FFE50E062A9C8D8600AC5FF6 /* Dashboard.storyboard */,
 				FF19889A2A9BC74400D45DE4 /* Register.storyboard */,
 				FF1988962A9BA95200D45DE4 /* Login.storyboard */,
@@ -176,8 +182,10 @@
 			buildActionMask = 2147483647;
 			files = (
 				FF1988972A9BA95200D45DE4 /* Login.storyboard in Resources */,
+				FFBBE0582A9E44A400BE650B /* Rewards.JSON in Resources */,
 				FFEF4DE62A9CE2FB00A510FA /* CustomTableViewCell.xib in Resources */,
 				FFE50E072A9C8D8700AC5FF6 /* Dashboard.storyboard in Resources */,
+				FFBBE0562A9E434000BE650B /* UserProfile.JSON in Resources */,
 				FF0FC4D42A9B6701001B2F03 /* LaunchScreen.storyboard in Resources */,
 				FF0FC4D12A9B6701001B2F03 /* Assets.xcassets in Resources */,
 				FF0FC4CC2A9B66FF001B2F03 /* Main.storyboard in Resources */,

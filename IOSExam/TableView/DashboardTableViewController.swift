@@ -38,24 +38,30 @@ class DashboardTableViewController: UITableViewController {
             cellProvider: { tableView, indexPath, item in
                 // Dequeue the custom cell
                 let cell = tableView.dequeueReusableCell(withIdentifier: "CustomCell", for: indexPath) as! CustomTableViewCell
-                
+                // string url for the image
+                cell.imageUrl = item.image
                 cell.descriptionLabel.text = item.description
                 return cell
             }
         )
     }
-    
+
     func applySnapshot() {
         var snapshot = NSDiffableDataSourceSnapshot<Section, DataModel>()
         snapshot.appendSections([.main])
         snapshot.appendItems([
-            DataModel(id: 0, name: "shopee", description: "Shopee 100Php Off!", image: "url"),
-            DataModel(id: 1, name: "shopee", description: "Shopee 100Php Off!", image: "url"),
-            DataModel(id: 2, name: "shopee", description: "Shopee 100Php Off!", image: "url"),
-            DataModel(id: 3, name: "shopee", description: "Shopee 100Php Off!", image: "url"),
-            DataModel(id: 4, name: "shopee", description: "Shopee 100Php Off!", image: "url"),
-            DataModel(id: 5, name: "zara", description: "Zara 200 Php Off!", image: "url")
-        ], toSection: .main)
+            DataModel(id: 1,
+                      name: "Shopee 100Php Off",
+                      description: "100Php off on Shopee with a minimum purchase of 1000Php!",
+                      image: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSjAk8-sic9MUEOpyMJXpnQkbLz2wUMOmUvYep80A8FRbH3bVeb&s"),
+            DataModel(id: 2,
+                      name: "Zalora Free Delivery",
+                      description: "Free delivery on any order from Zalora.",
+                      image: "https://static-sg.zacdn.com/cms/zaloranow/ZNOW_FA_LOGOS_PRIMARY_BLACK.png"),
+            DataModel(id: 3,
+                      name: "Mang Inasal",
+                      description: "Free Extra Rice",
+                      image: "https://www.rappler.com/tachyon/r3-assets/612F469A6EA84F6BAE882D2B94A4B421/img/48C62896A45B47CAADB8124477BDB9D3/mang-inasal-20200331.jpg")], toSection: .main)
         dataSource.apply(snapshot, animatingDifferences: true)
     }
     
@@ -63,6 +69,9 @@ class DashboardTableViewController: UITableViewController {
         let storyboard = UIStoryboard(name: "Details", bundle: nil)
         let view = storyboard.instantiateViewController(withIdentifier: "Details") as! DetailsViewController
         view.modalPresentationStyle = .fullScreen
+        view.desc = "my description"
+        view.image = "my image"
+        view.rewards = "my rewards"
         self.present(view, animated: false)
     }
 }
