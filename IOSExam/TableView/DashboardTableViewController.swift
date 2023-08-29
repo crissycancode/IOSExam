@@ -59,4 +59,10 @@ class DashboardTableViewController: UITableViewController {
         dataSource.apply(snapshot, animatingDifferences: true)
     }
     
+    override func tableView(_ tableView: UITableView, didSelectRowAt indexPath: IndexPath) {
+        let storyboard = UIStoryboard(name: "Details", bundle: nil)
+        let view = storyboard.instantiateViewController(withIdentifier: "Details") as! DetailsViewController
+        view.modalPresentationStyle = .fullScreen
+        self.present(view, animated: false)
+    }
 }

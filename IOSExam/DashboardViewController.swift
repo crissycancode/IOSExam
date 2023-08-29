@@ -8,15 +8,6 @@
 import UIKit
 
 class DashboardViewController: UIViewController {
-    
-//    "user": {
-//                "id": "123-456-789-abc-def",
-//                "first_name": "Mang",
-//                "last_name": "Tani",
-//                "mobile": "9123456789",
-//                "is_verified": false,
-//                "referral_code": "qwe123"
-//            }
 
     @IBOutlet weak var nameLabel: UILabel!
     @IBOutlet weak var mobileLabel: UILabel!
